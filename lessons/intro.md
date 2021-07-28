@@ -2,28 +2,34 @@
 path: "/intro"
 title: "Introduction"
 order: "1A"
-section: "The First Section"
-description: "this is the description that will show up in social shares"
+section: "Introduction into Developer Productivity"
+description: "The productivity boosting developer course!"
 icon: "dumpster-fire"
 ---
 
-This is page one.
+### Welcome to Devoloper Productivity!
 
-## Check out this image
+* My guess is that you are like...
+![Ubuntu with vscode](./images/ubuntu-vscode.webp)
 
-![Gatsby Logo](./images/logo.svg)
+* Terminals suck
+![I would die if I saw this on my system, terminals](./images/too-many-terms.png)
 
-## Check out a code sample
+* Window manangement sucks
+![I would die if I saw this on my system](./images/too-many-icons.png)
 
-```js
-const x = 2 + 2;
-```
+### Search Fatigue\*
+Thank you for coming to my TedX talk
 
-- This is a link to [Frontend Masters][fem].
-- This another link to [Brian Holt's Twitter](https://twitter.com/holtbt).
-- Here's another link to a [site built with this starter][containers].
+![There is another way](./images/there-is-another-way.jpg)
 
-> This is emphasized information.
+### What is developer Productivity
+![Soft](./images/soft-skillz.png)
+![hard](./images/hard-soft-skillz.png)
+![all](./images/prod-hard-soft-skillz.png)
 
-[fem]: https://www.frontendmasters.com
-[containers]: https://btholt.github.io/complete-intro-to-containers/
+#### Definition: All the things that separate you from working
+Not everything I talk about today will be for you.
+
+#### I have talked about this before, but why do I care?
+[Vim Fundamentals](https://frontendmasters.com/courses/vim-fundamentals/)
