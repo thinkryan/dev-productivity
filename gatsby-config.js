@@ -1,21 +1,28 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Course",
-    subtitle: "For making great content",
-    author: "Your Name Here",
-    authorSubtitle: "Company Here",
+    title: "Developer Productivity",
+    subtitle: "The skills you need to succeed",
+    author: "ThePrimeagen",
+    authorSubtitle: "https://twitch.tv/ThePrimeagen",
     authorImage: "author.jpg", // this image should go in /static
     courseImage: "courseImage.png", // this also should go in /static
-    twitter: "https://twitter.com/holtbt", // make empty string to omit socials
-    linkedin: "https://linkedin.com/in/btholt",
-    github: "https://github.com/btholt",
+    twitter: "https://twitter.com/ThePrimeagen",
+    linkedin: "",
+    youtube: "https://youtube.com/ThePrimeagen",
+    twitch: "https://twitch.tv/ThePrimeagen",
+    github: "https://github.com/ThePrimeagen",
     description:
-      "This is the description that will show up when people share as well as on search engines",
+      "Developer Productivity helps every engineer take their career from junior to senior fast.",
     keywords: [
-      "this is",
-      "a list of keywords and phrase",
-      "that search engines",
-      "will index your page for",
+      "Programming",
+      "Linux",
+      "Developer",
+      "Productivity",
+      "Bash",
+      "Git",
+      "Vim",
+      "NeoVim",
+      "tmux",
     ],
   },
   pathPrefix: "",
