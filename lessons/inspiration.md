@@ -1,0 +1,57 @@
+---
+path: "/inspiration"
+title: "Inspiration - Why Dev workflow"
+order: "2A"
+section: "Introduction into Developer Productivity"
+description: "The why behind the how"
+icon: "dumpster-fire"
+---
+
+#### I have talked about this before, but why do I care?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+![Emacs Learning Curve](./images/emacs-learning.png)
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+![Vim Learning Curve](./images/vim-learning.png)
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+![I am a scientist](./images/i-am-science.png)
+
+[Vim Fundamentals](https://frontendmasters.com/courses/vim-fundamentals/)
