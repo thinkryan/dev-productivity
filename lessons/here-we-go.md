@@ -27,4 +27,10 @@ So what are we going to cover today?
 
 * 0-60 of getting computer up and running
 * dotfile management
-* dotfile management
+* window managers
+* terminal
+* cli
+* other cli tools
+* combining tools
+* refactoring software
+
