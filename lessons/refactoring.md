@@ -1,7 +1,7 @@
 ---
 path: "/refactoring"
 title: "Refactoring"
-order: "60A"
+order: "70A"
 section: "Developer"
 description: "Becoming systematic"
 icon: "dumpster-fire"

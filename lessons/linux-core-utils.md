@@ -10,3 +10,30 @@ icon: "dumpster-fire"
 ### Linux Core Utils
 Stop reinventing the wheel.
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### An interview question I had once back in the day
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

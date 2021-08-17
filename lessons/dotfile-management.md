@@ -1,7 +1,7 @@
 ---
 path: "/dotfile-management"
 title: "Dotfile Management!"
-order: "21A"
+order: "71A"
 section: "Computer"
 description: "Dotfiles can really suck to manage..."
 icon: "dumpster-fire"
@@ -185,6 +185,94 @@ yadm add .config/nvim/plugins/lsp.vim
 <br />
 <br />
 
-I have never really liked this adding.  I find it to be cumbersome because you
-have to inspect the state of your repo to know what you have and have not
-added.
+### I think you get the idea right?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### So lets talk about stow
+So I think stow is amazing.
+* Its very simple
+* It only manages symlinks
+* Which allows it to be OS and version-able
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### To install and follow along
+```
+sudo apt install stow
+```
+
+```
+brew install stow
+```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### lets do some very basic examples
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### lets do some very basic examples
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Examples I should cover
+* Simple example
+* Up leveling the symlink
+* Removing Stow'd items
+* Collisions

@@ -1,7 +1,7 @@
 ---
 path: "/ansible-as-a-workstation"
 title: "Ansible as a Workstation"
-order: "20A"
+order: "60A"
 section: "Computer"
 description: "Downloading all that you forgot"
 icon: "dumpster-fire"
@@ -403,3 +403,10 @@ history 0 | grep "\(sudo apt install\)\|\(sudo apt purge\)"
 
 ### My setup
 [https://github.com/ThePrimeagen/ansible](https://github.com/ThePrimeagen/ansible)
+
+### The install script
+[My Install Script](https://raw.githubusercontent.com/ThePrimeagen/ansible/master/ansible-run)
+
+```
+curl https://raw.githubusercontent.com/ThePrimeagen/ansible/master/ansible-run | bash
+```
