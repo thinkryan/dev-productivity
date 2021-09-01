@@ -1,7 +1,7 @@
 ---
 path: "/inspiration"
 title: "Inspiration - Why Dev workflow"
-order: "2A"
+order: "3A"
 section: "Introduction into Developer Productivity"
 description: "The why behind the how"
 icon: "dumpster-fire"

@@ -1,7 +1,7 @@
 ---
 path: "/ansible-as-a-workstation"
 title: "Ansible as a Workstation"
-order: "60A"
+order: "10A"
 section: "Computer"
 description: "Downloading all that you forgot"
 icon: "dumpster-fire"

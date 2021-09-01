@@ -1,7 +1,7 @@
 ---
 path: "/dotfile-management"
 title: "Dotfile Management!"
-order: "71A"
+order: "11A"
 section: "Computer"
 description: "Dotfiles can really suck to manage..."
 icon: "dumpster-fire"

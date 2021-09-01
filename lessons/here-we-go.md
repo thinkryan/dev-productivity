@@ -1,7 +1,7 @@
 ---
 path: "/here-we-go"
 title: "Here we go!"
-order: "3A"
+order: "4A"
 section: "Introduction into Developer Productivity"
 description: "Lets get started"
 icon: "dumpster-fire"

@@ -2,7 +2,7 @@
 path: "/window-manager"
 title: "Window Manager"
 order: "14A"
-section: "Introduction into Developer Productivity"
+section: "Computer"
 description: "The start of productivity"
 icon: "dumpster-fire"
 ---

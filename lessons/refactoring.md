@@ -1,11 +1,12 @@
 ---
 path: "/refactoring"
 title: "Refactoring"
-order: "70A"
-section: "Developer"
+order: "73A"
+section: "Coding"
 description: "Becoming systematic"
 icon: "dumpster-fire"
 ---
 
-###
+### Refactoring
+
 

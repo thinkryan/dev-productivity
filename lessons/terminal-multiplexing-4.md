@@ -1,6 +1,6 @@
 ---
 path: "/tmux-4"
-title: "Tmux - Using"
+title: "Tmux - Going Full Amazing"
 order: "34A"
 section: "CLI - Beginning"
 description: "More manageable terminals"
