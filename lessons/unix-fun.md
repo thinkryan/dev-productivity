@@ -1,7 +1,7 @@
 ---
 path: "/unix-fun"
 title: "Unix Fun"
-order: "41A"
+order: "42A"
 section: "CLI - Fun"
 description: "The core utils"
 icon: "dumpster-fire"

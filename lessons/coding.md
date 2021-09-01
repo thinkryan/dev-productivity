@@ -1,6 +1,6 @@
 ---
-path: "/the-editor"
-title: "The Editor"
+path: "/coding"
+title: "Coding"
 order: "70A"
 section: "Coding"
 description: "Faster, better, stronger"

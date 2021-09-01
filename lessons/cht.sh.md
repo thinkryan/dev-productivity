@@ -1,8 +1,8 @@
 ---
-path: "/the-editor-2"
+path: "/cht.sh"
 title: "Syntax..."
-order: "71A"
-section: "Coding"
+order: "40A"
+section: "CLI - Fun"
 description: "Google be gone."
 icon: "dumpster-fire"
 ---

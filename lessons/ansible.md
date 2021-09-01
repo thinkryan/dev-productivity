@@ -1,15 +1,32 @@
 ---
 path: "/ansible-as-a-workstation"
-title: "Ansible as a Workstation"
+title: "The most incredible topic"
 order: "10A"
 section: "Computer"
 description: "Downloading all that you forgot"
 icon: "dumpster-fire"
 ---
 
+### When I started this talk, I thought this was the worst part
+THE MOST BORING
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 ### The Problem Statement
-* New computer.  Whether from new job or personal, this is a categoric time
-  suck.
+* I have new computer and I want to git clone and build the latest neovim.
+
+So lets use docker and create a fresh install computer.
 
 <br />
 <br />
@@ -24,7 +41,7 @@ icon: "dumpster-fire"
 <br />
 <br />
 
-SSH Keys?
+Lets start by installing zsh
 
 <br />
 <br />

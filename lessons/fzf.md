@@ -1,7 +1,7 @@
 ---
 path: "/fzf"
 title: "FZF"
-order: "42A"
+order: "43A"
 section: "CLI - Fun"
 description: "The greatest fuzzy finder"
 icon: "dumpster-fire"

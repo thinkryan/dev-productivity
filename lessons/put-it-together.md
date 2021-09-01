@@ -1,7 +1,7 @@
 ---
 path: "/tmux-5"
 title: "Tmux - Putting it together"
-order: "43A"
+order: "44A"
 section: "CLI - Fun"
 description: "More manageable terminals"
 icon: "dumpster-fire"

@@ -1,7 +1,7 @@
 ---
 path: "/core-utils"
 title: "Linux Core Utils"
-order: "40A"
+order: "41A"
 section: "CLI - Fun"
 description: "Got more out of the command line."
 icon: "dumpster-fire"
