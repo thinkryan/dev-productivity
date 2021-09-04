@@ -1,7 +1,7 @@
 ---
 path: "/ansible-as-a-workstation"
-title: "The most incredible topic"
-order: "10A"
+title: "Ansible"
+order: "8A"
 section: "Computer"
 description: "Downloading all that you forgot"
 icon: "dumpster-fire"
@@ -24,146 +24,19 @@ THE MOST BORING
 <br />
 
 ### The Problem Statement
-* I have new computer and I want to git clone and build the latest neovim.
-
-So lets use docker and create a fresh install computer.
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-Lets start by installing zsh
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-For us that build our own editors, other software, etc etc.  Can you name the
-toolchain?
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-Lets look to the cloud.<br />
-** in steps ansible **
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-What is ansible?
-
-Ansible is a way to create a system the way you want it.<br />
-Ansible has capabilities for secure storage.<br />
-Ansible isn't just for cloud configuration, it can be used for desktop setup.<br />
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-## Ansible as your workstation
-My configuration can be found here:
-[ThePrimeagen's Ansible](https://github.com/ThePrimeagen/ansible)
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### Docker Ubuntu
-For testing purposes I use docker to ensure that when I get a clean system I
-have all my installs properly setup
+* I have new computer (not a problem) and I want zsh installed (the problem)
 
 ```
-FROM ubuntu:focal
-ARG TAGS
-WORKDIR /usr/local/bin
-ARG DEBIAN_FRONTEND=noninteractive
-RUN apt update && apt install -y software-properties-common && apt-add-repository -y ppa:ansible/ansible && apt update && apt install -y curl git ansible build-essential
-CMD ["sh", "-c", "ansible-playbook $TAGS local.yml"]
+sudo apt install zsh
 ```
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### The Hello, World of Ansible
-
-If you want to work along you have to install ansible
-
-#### Windows WLS2 / Ubuntu / Deb
-
 ```
-apt-add-repository -y ppa:ansible/ansible
-sudo apt update
-sudo apt install -y software-properties-common curl git ansible build-essential
+# the thing we forget to do
+chsh -s `which zsh` # when typing this I did chsh zsh
 ```
 
-#### OSX
-[OSX Guide](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-macos)
-* use `pip`
+#### For the sake of example
+I am using docker
 
 <br />
 <br />
@@ -178,22 +51,8 @@ sudo apt install -y software-properties-common curl git ansible build-essential
 <br />
 <br />
 
-#### The Ansible Outline
-```
-- hosts: localhost
-  become: true
-  pre_tasks:
-    - name: update repositories
-      apt: update_cache=yes
-      changed_when: False
-  tasks:
-    - ...
-```
-
-To run ansible you simply do:
-```
-ansible-playbook local.yml --ask-become-pass
-```
+### The Problem Statement
+I have a new computer (it is the problem)
 
 <br />
 <br />
@@ -208,18 +67,77 @@ ansible-playbook local.yml --ask-become-pass
 <br />
 <br />
 
-#### Tasks
+Installing the things I need
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+SSH Keys???
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### So lets talk about the anatomy of ansible
+ANSIBLE IS A CLOUD CONFIGURATION PLATFORM
 
 ```
 - hosts: localhost
   become: true
-  pre_tasks:
-    - name: update repositories
-      apt: update_cache=yes
-      changed_when: False
-  tasks:
-    - name: Install Node
-      apt: name=nodejs
+  pretasks: ...
+  vars: ...
+  tasks: ...
+```
+
+### Lets create the zsh install but with ansible
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### BUT I HAVE SO MANY TASKS!!!
+
+You can reduce the main file by having task files! Lets do that plus add some
+more programs.
+
+* Install nodejs and npm
+* Install n node manager
+
+#### NOTE!!
+```
+  ...
+  - name: Update cache
+    apt:
+      update_cache: true
+  ...
 ```
 
 <br />
@@ -235,8 +153,9 @@ ansible-playbook local.yml --ask-become-pass
 <br />
 <br />
 
-#### That would become cumbersome quickly!
-That would be terrible right?
+### You can see where this is going.
+Every time you do some installation of a new item, put it in ansible.  Install
+it through ansible, add tags, etc etc.
 
 <br />
 <br />
@@ -251,32 +170,13 @@ That would be terrible right?
 <br />
 <br />
 
+### Lets change gears a bit!
+SSH Keys.  The worst thing ever.  The best thing ever.<br/>
 
-#### ansible-repository/local.yml
-```
-- hosts: localhost
-  become: true
-  pre_tasks:
-    - name: update repositories
-      apt: update_cache=yes
-      changed_when: False
-  tasks:
-    - include: tasks/node-setup.yml
-```
-#### ansible-repository/tasks/node-setup.yml
-```
-- name: Install node & npm
-  apt: name={{item}}
-  with_items:
-    - nodejs
-    - npm
-- name: Install N
-  npm:
-    name: n
-    global: yes
-- name: Install correct version of Node
-  shell: n 14
-```
+Ansible comes with something called `ansible-vault`.  My guess is that this
+will be the greatest thing you take away from today. <br />
+
+Lets learn by example!
 
 <br />
 <br />
@@ -291,29 +191,9 @@ That would be terrible right?
 <br />
 <br />
 
-### Tags
-This makes testing easy and setup easy
+### Bonus Content
 
-#### ansible-repository/tasks/node-setup.yml
-```
-- name: Install node & npm
-  apt: name={{item}}
-  with_items:
-    - nodejs
-    - npm
-  tags:
-    - node
-- name: Install N
-  npm:
-    name: n
-    global: yes
-  tags:
-    - node
-- name: Install correct version of Node
-  shell: n 14
-  tags:
-    - node
-```
+So we talked about the vault.  What else could we vault other than ssh keys?
 
 <br />
 <br />
@@ -328,62 +208,66 @@ This makes testing easy and setup easy
 <br />
 <br />
 
-### Now this is awesome... but SSH?
+### Decrypting... is always manual?
+no.
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### ansible vault
-will encrypt / decrypt any regular file.
+Here is the _exact_ (well sort of) code that I use to work with vault'd items.
 
 ```
-cp ~/.ssh/id_rsa ~/ansible/.ssh
-ansible-vault encrypt .ssh/id_rsa
-```
-
-Now I can commit this to a public repo.
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-```yml
-- name: Install a private SSH key
+# local.yml
+  ...
   vars:
-    source_key: "{{ lookup('env', 'HOME') }}/ansible/.ssh/id_rsa"
+    source_key: "./.ssh/id_rsa"
     dest_key: "{{ lookup('env', 'HOME') }}/.ssh/id_rsa"
-  tasks:
-  - name: Ensure .ssh directory exists.
-    file:
-      dest: "{{ dest_key | dirname }}"
-      mode: 0700
-      owner: user
-      state: directory
-  - name: Install ssh key
-    copy:
-      src: "{{ source_key }}"
-      dest: "{{ dest_key }}"
-      mode: 0600
-      owner: user
+  ...
+```
+
+```
+# ssh file
+- name: Ensure .ssh directory exists.
+  become_user: root
+  file:
+    dest: "{{ dest_key | dirname }}"
+    mode: 0700
+    state: directory
+  tags:
+    - dotfiles
+    - ssh
+- name: Install ssh key
+  become_user: root
+  copy:
+    src: "{{ source_key }}"
+    dest: "{{ dest_key }}"
+    mode: 0600
+  tags:
+    - dotfiles
+    - ssh
+- name: Set authorized key took from file
+  authorized_key:
+    user: "{{ lookup('env', 'USER') }}"
+    state: present
+    key: "{{ lookup('env', 'HOME') }}/.ssh/id_rsa.pub"
+  tags:
+    - dotfiles
+    - ssh
+```
+
+```
+# clone down the dotfiles and recurse the submodules (which are private)
+- name: Cloning .dotfiles
+  ansible.builtin.git:
+    repo: 'git@github.com:ThePrimeagen/.dotfiles.git'
+    dest: "{{ lookup('env', 'HOME') }}/.dotfiles"
+    recursive: yes
+    update: yes
+    accept_hostkey: yes
+    version: master
+  tags:
+    - dotfiles
+```
+
+```
+ansible-playbook -t dotfiles local.yml --ask-become-pass --ask-vault-pass
 ```
 
 <br />
@@ -399,31 +283,3 @@ Now I can commit this to a public repo.
 <br />
 <br />
 
-### What did you download?
-One easy way is to get your history.
-```bash
-history 0 | grep "\(sudo apt install\)\|\(sudo apt purge\)"
-```
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### My setup
-[https://github.com/ThePrimeagen/ansible](https://github.com/ThePrimeagen/ansible)
-
-### The install script
-[My Install Script](https://raw.githubusercontent.com/ThePrimeagen/ansible/master/ansible-run)
-
-```
-curl https://raw.githubusercontent.com/ThePrimeagen/ansible/master/ansible-run | bash
-```
