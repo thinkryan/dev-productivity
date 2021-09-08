@@ -7,7 +7,36 @@ description: "What did we learn from all this"
 icon: "dumpster-fire"
 ---
 
+### YADM
+* repo, in the shape of your dotfiles, and it will install them for you
+![YADM HomePage](./images/yadm.png)
+
+```
+yadm clone git@github.com:ThePrimeagen/dotfiles
+yadm add .config/nvim/plugins/lsp.vim
+```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
 ### So what should I do?
+#### YADM vs Stow
+##### Don't forget dotbot
 
 <br />
 <br />
@@ -45,7 +74,3 @@ but it doesn't provide simplicity and the separation of concerns.
 <br />
 <br />
 
-### Bonus Content
-Hopefully you just made a connection in your brain.  I have tons of these
-google authenticator back up codes I written on a piece of paper somewhere....
-(Or emailed to me, with that subject line "Dr. WholeHouse has a firey sale")

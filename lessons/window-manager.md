@@ -9,7 +9,21 @@ icon: "dumpster-fire"
 
 ### What is a window manager?
 
-Let me give you a little demo
+My theory on navigation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <br />
 <br />

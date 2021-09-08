@@ -38,23 +38,6 @@ From [Acrolinux](https://arcolinux.com/everthing-you-need-to-know-about-tmux-ser
 <br />
 <br />
 
-### Why use one?
-
-![Golden Hammer](./images/golden-hammer.png)
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 ### Install tmux
 ```
 sudo apt install tmux
