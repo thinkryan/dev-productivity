@@ -135,45 +135,24 @@ So what do I get out of oh-my-zsh?
 ### Apply what you have learned
 Lets say you decide, yes I want zsh and oh my zsh.  What should you do?
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 PUT IT IN YOUR ANSIBLE
 
 #### Fun side note
 I actually forgot to do it for myself and so when I originally executed this I
 didn't have zsh-autosuggestions installed.  Took a moment to figure it out.
-
-```
-// Ansible script and yes, I don't know how to make a comment in yaml
-- name: Install ZSH
-  apt: name=zsh
-  tags:
-    - install
-    - productivity
-    - dotfiles
-    - zsh
-- name: Change shell to zsh
-  shell: chsh -s $(which zsh)
-  tags:
-    - install
-    - dotfiles
-    - productivity
-    - zsh
-- name: Oh-My-Zsh
-  shell: curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-  tags:
-    - install
-    - productivity
-    - dotfiles
-    - zsh
-- name: Install zsh-autosuggestions
-  ansible.builtin.git:
-    repo: 'https://github.com/zsh-users/zsh-autosuggestions.git'
-    dest: "~/.oh-my-zsh/plugins/zsh-autosuggestions"
-  tags:
-    - install
-    - productivity
-    - dotfiles
-    - zsh
-```
 
 <br />
 <br />

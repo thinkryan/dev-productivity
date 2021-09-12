@@ -1,7 +1,7 @@
 ---
 path: "/core-utils"
 title: "Linux Core Utils"
-order: "41A"
+order: "42A"
 section: "CLI - Fun"
 description: "Got more out of the command line."
 icon: "dumpster-fire"
@@ -9,6 +9,37 @@ icon: "dumpster-fire"
 
 ### Linux Core Utils
 Stop reinventing the wheel.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Quick intro into CLI piping
+`prog1 | prog2 | prog3`
+
+Lets do an example
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <br />
 <br />
@@ -41,9 +72,91 @@ Stop reinventing the wheel.
 ### So what are core utils?
 * A set of programs that can make your life easier doing ad hoc tasks
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Great example (solution down below)
+
 Sometimes an example is great!  Lets say that you want to count how many
-occurrences of each word exists within a file?  I am curious, how many chose
-`awk`, `sort | uniq | sort`, or write a program?
+occurrences of each word exists within a file?
+
+Real example, YT subtitles.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+I am curious, how many chose
+`awk`, `cat | sort | uniq`, or write a program?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+Sum each line and display the max sum
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+I am curious again, how many chose to write a program?  `awk`?  `bc sort head`
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+# Some other utils you should just know
+cat
+read
+grep
+tr
+echo
 
 <br />
 <br />

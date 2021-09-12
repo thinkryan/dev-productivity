@@ -1,14 +1,14 @@
 ---
-path: "/unix-fun"
-title: "Unix Fun"
-order: "42A"
+path: "/tmux-fun"
+title: "tmux fun!"
+order: "44A"
 section: "CLI - Fun"
-description: "The core utils"
+description: "Tmux + cht.sh"
 icon: "dumpster-fire"
 ---
 
-### Quick intro into CLI piping
-`prog1 | prog2 | prog3`
+### Lets create something
+#### I AM AN ARTIST, TO GIMP!
 
 <br />
 <br />
@@ -23,20 +23,23 @@ icon: "dumpster-fire"
 <br />
 <br />
 
-### Some utils to learn
-* man
-* find
-* cat
-* xargs
-* tr
-* sed
-* sort
-* uniq
-* grep
-* basename
-* \`\` (ticks)
+### We know some tmux commands.
+```
+tmux new-session -s "foobar" -d
+```
 
-### Lets go over these one at a time!
+```
+tmux new-session -s "foobar" -d -c "$HOME/personal/developer-productivity"
+```
+
+### We can do the same with window
+```
+tmux new-window -n "foobar" -c "$HOME/personal"
+```
+
+```
+man tmux
+```
 
 <br />
 <br />
@@ -51,3 +54,32 @@ icon: "dumpster-fire"
 <br />
 <br />
 
+### Lets do the programming!
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### How does this feel?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

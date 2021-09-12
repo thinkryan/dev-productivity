@@ -1,9 +1,9 @@
 ---
-path: "/tmux-5"
-title: "Tmux - Putting it together"
-order: "44A"
+path: "/outro"
+title: "Knowledge"
+order: "45A"
 section: "CLI - Fun"
-description: "More manageable terminals"
+description: "Incredible to more incredible"
 icon: "dumpster-fire"
 ---
 
@@ -22,5 +22,4 @@ The goal is to provide the knowledge that is useful for a long time.
 <br />
 <br />
 <br />
-
 

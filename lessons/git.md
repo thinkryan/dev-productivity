@@ -1,15 +1,15 @@
 ---
 path: "/git"
 title: "Git - The cool parts"
-order: "45A"
-section: "CLI - Fun"
+order: "50A"
+section: "git - Fun"
 description: "How to use git to the max"
 icon: "dumpster-fire"
 ---
 
 The majority of you know about git is likely push / pull / rebase.  There is a
 ton more, but today I wanted to focus on one of the most underrated git
-features out there.  Git work trees
+features out there.  Git work trees, some log searching techniques, and reflog.
 
 <br />
 <br />
@@ -102,30 +102,6 @@ streamline getting the exact commands to run is using cht.sh
 curl cht.sh/git~worktree
 ```
 
-```
-➜  refactoring.nvim git:(master) curl cht.sh/git~worktree
- tldr:git-update-index
-# Pretend that a modified file is unchanged (`git status` will not show this as changed):
-git update-index --skip-worktree path/to/modified_file
-
- tldr:git-worktree
-# git worktree
-# Manage multiple working trees attached to the same repository.
-# More information: <https://git-scm.com/docs/git-worktree>.
-
-# Create a new directory with the specified branch checked out into it:
-git worktree add path/to/directory branch
-
-# Create a new directory with a new branch checked out into it:
-git worktree add path/to/directory -b new_branch
-
-# List all the working directories attached to this repository:
-git worktree list
-
-# Remove a worktree (after deleting worktree directory):
-git worktree prune
-```
-
 <br />
 <br />
 <br />
@@ -140,3 +116,26 @@ git worktree prune
 <br />
 
 Let's go over some use cases to showcase the differences.
+
+* check out branch
+* list branches
+* edit branch
+* check out another branch
+* make changes
+* stashing
+* rebasing
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+* Pros and cons

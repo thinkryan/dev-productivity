@@ -55,3 +55,38 @@ icon: "dumpster-fire"
 ![I am a scientist](./images/i-am-science.png)
 
 [Vim Fundamentals](https://frontendmasters.com/courses/vim-fundamentals/)
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Who am I?
+
+* I am priviledged enough to tell you I work at Netflix and work on Network
+  Algos (http2, ws, other ones in the works now).
+* I stream on [Twitch](twitch.tv/ThePrimeagen).
+* I make meme's and informative videos on [YT](youtube.com/ThePrimeagen)
+* Married to a beautiful wife
+* 4 kids
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

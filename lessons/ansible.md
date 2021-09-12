@@ -35,8 +35,21 @@ sudo apt install zsh
 chsh -s `which zsh` # when typing this I did chsh zsh
 ```
 
-#### For the sake of example
-I am using docker
+Please don't make fun of me.  oh-my-zsh does give you a -1 BTW
+
+```
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+```
+
+Add autosuggest to the plugins
+
+```
+plugins=(git zsh-autosuggestions)
+```
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/plugins/zsh-autosuggestions
+```
 
 <br />
 <br />
@@ -100,6 +113,7 @@ SSH Keys???
 ### So lets talk about the anatomy of ansible
 ANSIBLE IS A CLOUD CONFIGURATION PLATFORM
 
+Top Level
 ```
 - hosts: localhost
   become: true
@@ -108,7 +122,55 @@ ANSIBLE IS A CLOUD CONFIGURATION PLATFORM
   tasks: ...
 ```
 
+Task
+```
+- name: string
+  _SOME_ACTION_
+  tags:
+    - list
+    - of
+    - tags
+```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 ### Lets create the zsh install but with ansible
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+* Install nodejs and npm
+* Install n node manager
+
+#### NOTE!!
+```
+  ...
+  - name: Update cache
+    apt:
+      update_cache: true
+  ...
+```
 
 <br />
 <br />
@@ -128,17 +190,20 @@ ANSIBLE IS A CLOUD CONFIGURATION PLATFORM
 You can reduce the main file by having task files! Lets do that plus add some
 more programs.
 
-* Install nodejs and npm
-* Install n node manager
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
-#### NOTE!!
-```
-  ...
-  - name: Update cache
-    apt:
-      update_cache: true
-  ...
-```
+### Ohh wait
 
 <br />
 <br />
@@ -170,30 +235,43 @@ it through ansible, add tags, etc etc.
 <br />
 <br />
 
+### But Prime you told me this was exciting.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### SSH?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 ### Lets change gears a bit!
 SSH Keys.  The worst thing ever.  The best thing ever.<br/>
 
 Ansible comes with something called `ansible-vault`.  My guess is that this
 will be the greatest thing you take away from today. <br />
 
-Lets learn by example!
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### Bonus Content
-
-So we talked about the vault.  What else could we vault other than ssh keys?
+Lets learn by example!  Lets encrypt and decrypt shortly.
 
 <br />
 <br />
@@ -283,3 +361,19 @@ ansible-playbook -t dotfiles local.yml --ask-become-pass --ask-vault-pass
 <br />
 <br />
 
+### Bonus Content
+
+So we talked about the vault.  What else could we vault other than ssh keys?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

@@ -22,6 +22,21 @@ icon: "dumpster-fire"
 <br />
 <br />
 
+### LETS TALK TMUX
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 From [Acrolinux](https://arcolinux.com/everthing-you-need-to-know-about-tmux-servers-and-sessions/)
 ![Tmux - Server](./images/tmux-server.png)
 
@@ -46,3 +61,31 @@ sudo apt install tmux
 ```
 brew install tmux
 ```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### WHAT DO WE DO NEXT?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

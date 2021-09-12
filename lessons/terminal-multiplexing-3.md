@@ -69,7 +69,25 @@ tmux kill-server
 tmux
 ```
 
-### Do the drawing thing
+### What actually happens here? (Draw it out)
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+```
+tmux a
+tmux attach
+```
 
 <br />
 <br />
@@ -99,9 +117,36 @@ tmux
 <br />
 <br />
 
+### What is the goal here?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 ### Creating sessions
+```
+tmux kill-server
+```
 
 ```
+tmux
+```
+
+```
+tmux list-sessions
+```
+
+```
+tmux #errors
 tmux new-session #errors
 ```
 
@@ -113,13 +158,39 @@ tmux new-session -d
 tmux list-sessions
 ```
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 #### Navigation tip
 I don't use this personal, but this is a thing that is good to know.
 
-* to the next session `<prefix>-a (`
-* to the prev session `<prefix>-a (`
+* to the next session `<prefix>-(`
+* to the prev session `<prefix>-)`
 
-#### Lets close our terminal
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+#### Lets close our tmux (but not really)!
 To get back to our session type in
 ```
 tmux a #ttach
@@ -127,6 +198,8 @@ tmux a #ttach
 
 #### Navigation tip
 Instead of closing our terminal, lets press `<prefix>-d`
+
+What just happened?
 
 #### Navigation tip
 You can see all of the sessions and their windows by pressing `<prefix>-w`
@@ -144,8 +217,22 @@ You can see all of the sessions and their windows by pressing `<prefix>-w`
 <br />
 <br />
 
+### Lets talk about windows
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 ### Creating Windows
-A session should contain *like* items.
 
 ```
 tmux new-window
@@ -157,6 +244,9 @@ this is equivalent to `<prefix>-c`
 * `<prefix>-n` for next window
 * `<prefix>-p` for prev window
 * `<prefix>-#` for the # window
+
+#### Usefulness tip
+A session should contain *like* items.
 
 <br />
 <br />

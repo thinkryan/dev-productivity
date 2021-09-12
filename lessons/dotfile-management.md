@@ -92,6 +92,21 @@ set smartindent
 <br />
 <br />
 
+### We want something that is cross os compatible
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 ### There are three solutions that seem to popular
 * yadm
 * GNU/stow
