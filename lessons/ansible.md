@@ -2,7 +2,7 @@
 path: "/ansible-as-a-workstation"
 title: "Ansible"
 order: "8A"
-section: "Computer"
+section: "Jump Start"
 description: "Downloading all that you forgot"
 icon: "dumpster-fire"
 ---
@@ -117,7 +117,7 @@ Top Level
 ```
 - hosts: localhost
   become: true
-  pretasks: ...
+  pre_tasks: ...
   vars: ...
   tasks: ...
 ```
@@ -364,6 +364,36 @@ ansible-playbook -t dotfiles local.yml --ask-become-pass --ask-vault-pass
 ### Bonus Content
 
 So we talked about the vault.  What else could we vault other than ssh keys?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+![Authenticator](./images/authenticator.png)
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### How did you just dotfile that easy?
 
 <br />
 <br />

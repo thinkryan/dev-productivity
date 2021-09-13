@@ -2,7 +2,7 @@
 path: "/dotfile-system-setup-summary"
 title: "Dotfile and System Setup Summary"
 order: "12A"
-section: "Computer"
+section: "Jump Start"
 description: "What did we learn from all this"
 icon: "dumpster-fire"
 ---
@@ -74,3 +74,17 @@ but it doesn't provide simplicity and the separation of concerns.
 <br />
 <br />
 
+### Pros and Cons
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

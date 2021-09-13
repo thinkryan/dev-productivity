@@ -2,7 +2,7 @@
 path: "/dotfile-management"
 title: "Dotfile Management!"
 order: "11A"
-section: "Computer"
+section: "Jump Start"
 description: "Dotfiles can really suck to manage..."
 icon: "dumpster-fire"
 ---
@@ -192,37 +192,8 @@ brew install stow
 I just have to know.  How many tingles are you feeling?  I am feeling all of
 them.
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### Lets do a little thought exercise
-So lets create our neovim confg
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### Lets think about ansible
-Lets take a look at my stow configuration
+* Or does it just feel complicated?  Well lets work through the Ansible
+  together!
 
 <br />
 <br />
@@ -243,3 +214,16 @@ I can tell.  You are eager.
 ![I am a scientist](./images/i-am-science.png)
 
 [Vim Fundamentals](https://frontendmasters.com/courses/vim-fundamentals/)
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

@@ -49,6 +49,7 @@ chsh -s $(which zsh)
 ### But what is a shell?
 The [Wizard](https://www.youtube.com/user/lastmiles) talk for a bit.  He gets
 banned from twitch regularly, so..... that link is to his youtube.
+[SomeCodingGuy](https://twitch.tv/SomeCodingGuy) Just knows things.
 
 ```
 # you meant ls -la
@@ -153,21 +154,6 @@ PUT IT IN YOUR ANSIBLE
 #### Fun side note
 I actually forgot to do it for myself and so when I originally executed this I
 didn't have zsh-autosuggestions installed.  Took a moment to figure it out.
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### My ultimate goal with the shell.
 
 <br />
 <br />
