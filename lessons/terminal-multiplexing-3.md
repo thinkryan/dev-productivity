@@ -117,24 +117,14 @@ tmux attach
 <br />
 <br />
 
-### What is the goal here?
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 ### Creating sessions
+
 ```
 tmux kill-server
+```
+
+```
+tmux list-sessions
 ```
 
 ```
@@ -176,6 +166,10 @@ I don't use this personal, but this is a thing that is good to know.
 
 * to the next session `<prefix>-(`
 * to the prev session `<prefix>-)`
+
+#### Fun fact, C-d vs prefix-d
+C-d = EOF
+prefix-d = tmux detach
 
 <br />
 <br />
@@ -301,3 +295,30 @@ tmux new-window -n "fooooo"
 You can definitely look into panes to be able to split your view.  I just
 haven't really got into that.  I find it a pane in the ass..
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+![Tooooo many terms](./images/too-many-terms.png)
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

@@ -1,8 +1,8 @@
 ---
 path: "/core-utils"
 title: "Linux Core Utils"
-order: "42A"
-section: "CLI - Fun"
+order: "51A"
+section: "Unix Fun"
 description: "Got more out of the command line."
 icon: "dumpster-fire"
 ---
@@ -22,39 +22,6 @@ Stop reinventing the wheel.
 <br />
 <br />
 <br />
-
-### Quick intro into CLI piping
-`prog1 | prog2 | prog3`
-
-Lets do an example
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### An interview question I had once back in the day
 
 <br />
 <br />
@@ -153,10 +120,15 @@ I am curious again, how many chose to write a program?  `awk`?  `bc sort head`
 
 # Some other utils you should just know
 cat
+<br />
 read
+<br />
 grep
+<br />
 tr
+<br />
 echo
+<br />
 
 <br />
 <br />

@@ -1,7 +1,7 @@
 ---
 path: "/cht.sh"
 title: "Syntax..."
-order: "41A"
+order: "37A"
 section: "CLI - Fun"
 description: "Google be gone."
 icon: "dumpster-fire"
@@ -44,9 +44,6 @@ These are questions we all ask ourselves, and often to solve these for the
 first or second time is with google. <br/>
 
 But what if we don't need to even open up a browser? <br/>
-
-### Fun fact, C-d?
-EOF
 
 <br />
 <br />
@@ -118,12 +115,15 @@ curl cht.sh/golang/:learn+slice
 <br />
 <br />
 
-### TL/DR
-Its another great tool just to grab a quick info
+### HOW DID YOU JUST COPY PASTA?
+#### Usability Tip
+`<prefix>-[` goes into vi mode
 
+this for the copy/paste in tmuxrc
 ```
-sudo apt install tldr
-brew install tldr
+set-window-option -g mode-keys vi
+bind -T copy-mode-vi v send-keys -X begin-selection
+bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel 'xclip -in -selection clipboard'
 ```
 
 <br />

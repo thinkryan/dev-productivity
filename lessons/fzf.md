@@ -1,7 +1,7 @@
 ---
 path: "/fzf"
 title: "FZF"
-order: "43A"
+order: "35A"
 section: "CLI - Fun"
 description: "The greatest fuzzy finder"
 icon: "dumpster-fire"
@@ -21,6 +21,21 @@ who also writes amazing vim plugins.
 ### There is a lot to it, but lets just have a simple example
 
 `demonstration begins`
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Recursive history search?  Not a problem!
 
 <br />
 <br />

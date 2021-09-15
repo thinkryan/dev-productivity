@@ -2,14 +2,14 @@
 path: "/git"
 title: "Git - The cool parts"
 order: "50A"
-section: "git - Fun"
+section: "Unix Fun"
 description: "How to use git to the max"
 icon: "dumpster-fire"
 ---
 
 The majority of you know about git is likely push / pull / rebase.  There is a
 ton more, but today I wanted to focus on one of the most underrated git
-features out there.  Git work trees, some log searching techniques, and reflog.
+features out there.
 
 <br />
 <br />
@@ -26,7 +26,22 @@ features out there.  Git work trees, some log searching techniques, and reflog.
 
 ### Git worktrees
 
+![Even Guido](./images/guido.png)
+
 So what is a work tree?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 There are a lot of ways in which work trees are used, but I am going to show
 you how I work with them.  Now you may want to read up on the other strategies
@@ -153,22 +168,8 @@ Let's go over some use cases to showcase the differences.
 <br />
 <br />
 
-### Log searching
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### Some basic examples
+### Bonus content!  Make Worktrees even better!
+Lets make this worktree stuff even better!
 
 <br />
 <br />
