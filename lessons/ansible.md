@@ -7,7 +7,7 @@ description: "Downloading all that you forgot"
 icon: "dumpster-fire"
 ---
 
-### When I started this talk, I thought this was the worst part
+### When I started this talk I thought this was the worst part
 THE MOST BORING
 
 <br />
@@ -110,9 +110,38 @@ SSH Keys???
 <br />
 <br />
 
-### So lets talk about the anatomy of ansible
-ANSIBLE IS A CLOUD CONFIGURATION PLATFORM
+### So if only there was a solution to all of these problems.
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### ANSIBLE!!
+Isn't that a cloud configuration thing??  Something like Koobernetes?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### So lets talk about the anatomy of ansible
 Top Level
 ```
 - hosts: localhost

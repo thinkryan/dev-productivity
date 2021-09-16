@@ -35,8 +35,22 @@ icon: "dumpster-fire"
 * A simple symlink manager which makes for a great dotfile manager.
 
 ### Adopting a new mindset
-* Everytime you make an alteration to your computer, you alter your install
-  script, or commit your dotfiles.
+* You have to be willing to stick with it!  Don't lose things because you get
+  lazy
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### If you did it today.  It probably wont be right
+* This is why I made docker image with nothing in it to test the installation.
 
 <br />
 <br />
@@ -49,8 +63,5 @@ icon: "dumpster-fire"
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
-<br />
-<br />
+
+

@@ -25,6 +25,7 @@ ask this everytime.
 
 1.  We want to configure the programs we love with our personal touch.
 2.  We want to be able to keep track and commit our changes over time.
+3.  I would prefer it to be any os compatible
 
 <br />
 <br />
@@ -63,36 +64,6 @@ set shiftwidth=4
 set expandtab
 set smartindent
 ```
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### We want something that can store and make available our dotfiles
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### We want something that is cross os compatible
 
 <br />
 <br />

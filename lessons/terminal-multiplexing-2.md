@@ -62,6 +62,25 @@ sudo apt install tmux
 brew install tmux
 ```
 
+### Benefit of using tmux
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+```
+tmux
+```
+
 <br />
 <br />
 <br />
@@ -76,6 +95,26 @@ brew install tmux
 <br />
 
 ### WHAT DO WE DO NEXT?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### tmux
+`C-d` writes an EOF (end of file) to the stdin, which closes the shell
+
+#### Understanding note
+When you see `C-*` C = ctrl, * = any key.  So the previous example is Control +
+d.
 
 <br />
 <br />

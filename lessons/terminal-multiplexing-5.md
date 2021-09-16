@@ -1,13 +1,13 @@
 ---
 path: "/tmux-5"
-title: "Finishing the TMUX script"
+title: "Create the TMUX nav script"
 order: "36A"
 section: "CLI - Fun"
 description: "More manageable terminals"
 icon: "dumpster-fire"
 ---
 
-### Lets finish the script!
+### Lets create the script
 
 <br />
 <br />
@@ -24,6 +24,19 @@ icon: "dumpster-fire"
 
 ### How does this feel?
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 #### Steaming hot Navigation Tip
 `<prefix>-L` Go to previous session
 
@@ -31,6 +44,10 @@ icon: "dumpster-fire"
 There are several ways to make this easy to use.
 1. we can use zsh to bindkey
 2. we can use tmux to bindkey
+3. make it available in your path
+4. call out from vim
+
+We also need to store in a place that we don't lose... where could that be?
 
 <br />
 <br />
@@ -44,6 +61,7 @@ There are several ways to make this easy to use.
 <br />
 <br />
 <br />
+
 
 ### TAKE IT TO THE NEXT LEVEL
 #### For this we need some precursor knowledge

@@ -72,7 +72,7 @@ icon: "dumpster-fire"
 ### Who am I?
 
 * I am priviledged enough to tell you I work at Netflix and work on Network
-  Algos (http2, ws, other ones in the works now).
+  Stuff (http2, ws, other ones in the works now).
 * I stream on [Twitch](twitch.tv/ThePrimeagen).
 * I make meme's and informative videos on [YT](youtube.com/ThePrimeagen)
 * Married to a beautiful wife

@@ -48,6 +48,9 @@ tmux new-session -s "foobar" -d -c "$HOME/personal/developer-productivity"
 ```
 tmux new-window -n "foobar" -c "$HOME/personal"
 ```
+```
+tmux switch-client -t "foobar"
+```
 
 ### We can specify a command.
 ```
@@ -105,8 +108,7 @@ Lets do an example
 <br />
 <br />
 
-### Lets do the programming!
-lets solve some navigation issues! (This is the way I do it)
+### We have one more thing to learn
 
 <br />
 <br />

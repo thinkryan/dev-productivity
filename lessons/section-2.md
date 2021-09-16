@@ -8,8 +8,7 @@ icon: "dumpster-fire"
 ---
 
 ### The start of section 2
-* navigation
-* cli
+If I had one word for section 2: Navigation.
 
 <br />
 <br />

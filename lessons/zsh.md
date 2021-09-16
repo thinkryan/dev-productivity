@@ -47,9 +47,9 @@ chsh -s $(which zsh)
 <br />
 
 ### But what is a shell?
-The [Wizard](https://www.youtube.com/user/lastmiles) talk for a bit.  He gets
-banned from twitch regularly, so..... that link is to his youtube.
-[SomeCodingGuy](https://twitch.tv/SomeCodingGuy) Just knows things.
+The [Wizard](https://www.youtube.com/user/lastmiles) explained the shell once
+to me in the following way.  He gets banned from twitch regularly, so..... that
+link is to his youtube.
 
 ```
 # you meant ls -la
@@ -58,6 +58,8 @@ ls -;a
 
 * Don't forget to draw :)
 * Do the `ps -o pid,ppid= -C zsh` example
+
+### Terminal vs Shell
 
 <br />
 <br />
@@ -119,6 +121,7 @@ So what do I get out of oh-my-zsh?
 * Choose something
 * Learn about it to some small amount
 * Get good at core utils
+* Take advantage of already built tools that are amazing.
 
 <br />
 <br />

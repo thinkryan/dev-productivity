@@ -30,7 +30,7 @@ is very complete and you can do a lot of things.
 <br />
 <br />
 
-### Lets open a terminal and start tmux
+### Lets open a terminal and start tmuxing
 
 <br />
 <br />
@@ -84,6 +84,21 @@ tmux
 <br />
 <br />
 
+### Lets close the terminal
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 ```
 tmux a
 tmux attach
@@ -102,7 +117,10 @@ tmux attach
 <br />
 <br />
 
-### The Prefix Key
+### Terminology
+Prefix Key
+* The key combo you press (default `C-b`).
+* Draw it out
 
 <br />
 <br />
@@ -167,6 +185,67 @@ I don't use this personal, but this is a thing that is good to know.
 * to the next session `<prefix>-(`
 * to the prev session `<prefix>-)`
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Close and create new session
+```
+tmux kill-server
+tmux new-session # equivalent to tmux
+```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Lets close our tmux (but not really)!
+Lets use `<prefix>-d`
+
+#### Reattach
+
+```
+tmux a #ttach
+```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Navigation tip
+You can see all of the sessions and their windows by pressing `<prefix>-w`
+
+#### Create a bunch of windows
+That way we can really see what happened there.  For you to do this on your own
+use detach in conjunction with `tmux new-session` command
+
 #### Fun fact, C-d vs prefix-d
 C-d = EOF
 prefix-d = tmux detach
@@ -184,19 +263,8 @@ prefix-d = tmux detach
 <br />
 <br />
 
-#### Lets close our tmux (but not really)!
-To get back to our session type in
-```
-tmux a #ttach
-```
-
-#### Navigation tip
-Instead of closing our terminal, lets press `<prefix>-d`
-
-What just happened?
-
-#### Navigation tip
-You can see all of the sessions and their windows by pressing `<prefix>-w`
+### So those are sessions
+it may be hard to see the difference between a session, a window, and a pane.
 
 <br />
 <br />
@@ -212,6 +280,11 @@ You can see all of the sessions and their windows by pressing `<prefix>-w`
 <br />
 
 ### Lets talk about windows
+
+#### Clean everything up.
+```
+tmux kill-server
+```
 
 <br />
 <br />
@@ -229,6 +302,7 @@ You can see all of the sessions and their windows by pressing `<prefix>-w`
 ### Creating Windows
 
 ```
+tmux
 tmux new-window
 ```
 
@@ -278,6 +352,9 @@ tmux new-session -d -s "foofoo"
 tmux new-window -n "fooooo"
 ```
 
+#### Usability tip
+You cannot have sessions with the same name
+
 <br />
 <br />
 <br />
@@ -308,6 +385,23 @@ haven't really got into that.  I find it a pane in the ass..
 <br />
 <br />
 
+From [Acrolinux](https://arcolinux.com/everthing-you-need-to-know-about-tmux-servers-and-sessions/)
+![Tmux - Server](./images/tmux-server.png)
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Have we solved this?
 ![Tooooo many terms](./images/too-many-terms.png)
 
 <br />
