@@ -118,7 +118,7 @@ I am curious again, how many chose to write a program?  `awk`?  `bc sort head`
 <br />
 <br />
 
-# Some other utils you should just know
+### Some other utils you should just know
 cat
 <br />
 read
@@ -129,6 +129,21 @@ tr
 <br />
 echo
 <br />
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Free tips on using sed
 
 <br />
 <br />

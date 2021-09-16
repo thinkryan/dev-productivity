@@ -168,8 +168,8 @@ Let's go over some use cases to showcase the differences.
 <br />
 <br />
 
-### Bonus content!  Make Worktrees even better!
-Lets make this worktree stuff even better!
+### Bonus Content
+Tiktok styled bonus content here.
 
 <br />
 <br />

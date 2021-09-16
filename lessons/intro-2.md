@@ -57,23 +57,24 @@ icon: "dumpster-fire"
 <br />
 <br />
 
-### I don't use VSCode btw
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 
 ### Search Fatigue\*
 Thank you for coming to my TedX talk
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### I don't use VSCode btw
 
 <br />
 <br />
@@ -196,5 +197,5 @@ Not everything I talk about today will be for you.
 
 
 ### What are we talking about?
-![Dante's Learning Rings](./images/what-the-talk.png)
+![Dante's Learning Inferno](./images/what-the-talk.png)
 
