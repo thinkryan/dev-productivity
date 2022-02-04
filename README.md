@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://frontendmasters.com/courses/developer-productivity/">Developer Productivity by ThePrimeagen</h1> <br>
+<h1 align="center"><a href="https://frontendmasters.com/courses/developer-productivity/">Developer Productivity by ThePrimeagen</a></h1> <br>
 
 <p align="center">
  As taught by ThePrimeagen for Frontend Masters
