@@ -25,8 +25,7 @@ module.exports = {
       "tmux",
     ],
   },
-  pathPrefix: "",
-  // pathPrefix: "/my-repo-name", // if you're using GitHub Pages, put the name of the repo here with a leading slash
+  pathPrefix: "developer-productivity",
   plugins: [
     {
       resolve: "gatsby-plugin-react-svg",
