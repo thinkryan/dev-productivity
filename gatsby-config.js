@@ -25,7 +25,7 @@ module.exports = {
       "tmux",
     ],
   },
-  pathPrefix: "developer-productivity",
+  pathPrefix: "dev-productivity",
   plugins: [
     {
       resolve: "gatsby-plugin-react-svg",
